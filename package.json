@@ -1,0 +1,22 @@
+{
+    "name": "catholic-css",
+    "version": "1.0.2",
+    "description": "A CSS variable palette based on Catholic liturgical and symbolic colors.",
+    "main": "dist/base-palette.css",
+    "files": [
+        "dist"
+    ],
+    "keywords": [
+        "css",
+        "colors",
+        "catholic",
+        "liturgical",
+        "palette",
+        "marian"
+    ],
+    "author": "Codex Communion",
+    "license": "SEE LICENSE IN LICENSE",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    }
+}
