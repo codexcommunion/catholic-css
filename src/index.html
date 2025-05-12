@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Catholic Color Palette Showcase</title>
-  <link rel="stylesheet" href="base-palette.css" />
+  <title>Catholic CSS Palette – Full Showcase</title>
+  <link rel="stylesheet" href="catholic-palette.css" />
   <style>
     body {
       font-family: sans-serif;
       margin: 2rem;
-      background: #f4f4f4;
+      background: #f8f8f8;
       color: #333;
     }
 
@@ -17,113 +17,256 @@
       margin-bottom: 1rem;
     }
 
-    .grid {
+    .shade-row {
       display: flex;
       flex-wrap: wrap;
-      gap: 1rem;
+      margin-bottom: 2rem;
     }
 
-    .swatch {
-      width: 260px;
-      height: 80px;
+    .shade {
+      flex: 1 1 60px;
+      height: 60px;
       display: flex;
       align-items: center;
       justify-content: center;
-      border-radius: 8px;
-      font-size: 0.9rem;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      color: white;
+      font-size: 0.75rem;
+      border-radius: 4px;
     }
 
-    .swatch span {
-      background: rgba(255,255,255,0.2);
-      padding: 0.3rem 0.6rem;
-      border-radius: 4px;
+    .shade-label {
+      margin-bottom: 0.5rem;
+      font-weight: bold;
     }
   </style>
 </head>
 <body>
 
-    <h1>Catholic Liturgical & Symbolic Colors</h1>
-  
-    <!-- Liturgical -->
-    <h2>Liturgical Colors</h2>
-    <div class="grid">
-      <div class="swatch" style="background: var(--liturgical-purple); color: white;">
-        <span>--liturgical-purple</span>
-      </div>
-      <div class="swatch" style="background: var(--liturgical-rose); color: black;">
-        <span>--liturgical-rose</span>
-      </div>
-      <div class="swatch" style="background: var(--liturgical-red); color: white;">
-        <span>--liturgical-red</span>
-      </div>
-      <div class="swatch" style="background: var(--liturgical-green); color: white;">
-        <span>--liturgical-green</span>
-      </div>
-      <div class="swatch" style="background: var(--liturgical-white); color: black; border: 1px solid #ccc;">
-        <span>--liturgical-white</span>
-      </div>
-      <div class="swatch" style="background: var(--liturgical-gold); color: black;">
-        <span>--liturgical-gold</span>
-      </div>
-      <div class="swatch" style="background: var(--liturgical-black); color: white;">
-        <span>--liturgical-black</span>
-      </div>
-    </div>
-  
-    <!-- Marian -->
-    <h2>Marian Colors</h2>
-    <div class="grid">
-      <div class="swatch" style="background: var(--marian-blue); color: white;">
-        <span>--marian-blue</span>
-      </div>
-      <div class="swatch" style="background: var(--immaculate-heart-blue); color: black;">
-        <span>--immaculate-heart-blue</span>
-      </div>
-      <div class="swatch" style="background: var(--immaculate-heart-red); color: white;">
-        <span>--immaculate-heart-red</span>
-      </div>
-    </div>
-  
-    <!-- Papal -->
-    <h2>Papal & Ecclesiastical Colors</h2>
-    <div class="grid">
-      <div class="swatch" style="background: var(--papal-gold); color: black;">
-        <span>--papal-gold</span>
-      </div>
-      <div class="swatch" style="background: var(--papal-white); color: black; border: 1px solid #ccc;">
-        <span>--papal-white</span>
-      </div>
-      <div class="swatch" style="background: var(--vatican-purple); color: white;">
-        <span>--vatican-purple</span>
-      </div>
-    </div>
-  
-    <!-- Symbolic -->
-    <h2>Symbolic Colors</h2>
-    <div class="grid">
-      <div class="swatch" style="background: var(--holy-spirit-flame); color: white;">
-        <span>--holy-spirit-flame</span>
-      </div>
-      <div class="swatch" style="background: var(--eucharistic-bread); color: black;">
-        <span>--eucharistic-bread</span>
-      </div>
-      <div class="swatch" style="background: var(--eucharistic-wine); color: white;">
-        <span>--eucharistic-wine</span>
-      </div>
-    </div>
-  
-    <!-- Neutrals -->
-    <h2>Neutrals</h2>
-    <div class="grid">
-      <div class="swatch" style="background: var(--monastery-stone); color: black;">
-        <span>--monastery-stone</span>
-      </div>
-      <div class="swatch" style="background: var(--incense-smoke); color: black; border: 1px solid #ccc;">
-        <span>--incense-smoke</span>
-      </div>
-    </div>
-  
-  </body>
-  
+  <h1>Catholic CSS Color Palette – Full Shade Showcase</h1>
+<h3 class="shade-label">Liturgical Purple</h3>
+<div class="shade-row">
+  <div class="shade" style="background: var(--color-liturgical-purple-50); color: black;">50</div>
+  <div class="shade" style="background: var(--color-liturgical-purple-100); color: black;">100</div>
+  <div class="shade" style="background: var(--color-liturgical-purple-200); color: black;">200</div>
+  <div class="shade" style="background: var(--color-liturgical-purple-300); color: black;">300</div>
+  <div class="shade" style="background: var(--color-liturgical-purple-400); color: white;">400</div>
+  <div class="shade" style="background: var(--color-liturgical-purple-500); color: white;">500</div>
+  <div class="shade" style="background: var(--color-liturgical-purple-600); color: white;">600</div>
+  <div class="shade" style="background: var(--color-liturgical-purple-700); color: white;">700</div>
+  <div class="shade" style="background: var(--color-liturgical-purple-800); color: white;">800</div>
+  <div class="shade" style="background: var(--color-liturgical-purple-900); color: white;">900</div>
+  <div class="shade" style="background: var(--color-liturgical-purple-950); color: white;">950</div>
+</div>
+<h3 class="shade-label">Liturgical Rose</h3>
+<div class="shade-row">
+  <div class="shade" style="background: var(--color-liturgical-rose-50); color: black;">50</div>
+  <div class="shade" style="background: var(--color-liturgical-rose-100); color: black;">100</div>
+  <div class="shade" style="background: var(--color-liturgical-rose-200); color: black;">200</div>
+  <div class="shade" style="background: var(--color-liturgical-rose-300); color: black;">300</div>
+  <div class="shade" style="background: var(--color-liturgical-rose-400); color: black;">400</div>
+  <div class="shade" style="background: var(--color-liturgical-rose-500); color: black;">500</div>
+  <div class="shade" style="background: var(--color-liturgical-rose-600); color: black;">600</div>
+  <div class="shade" style="background: var(--color-liturgical-rose-700); color: white;">700</div>
+  <div class="shade" style="background: var(--color-liturgical-rose-800); color: white;">800</div>
+  <div class="shade" style="background: var(--color-liturgical-rose-900); color: white;">900</div>
+  <div class="shade" style="background: var(--color-liturgical-rose-950); color: white;">950</div>
+</div>
+<h3 class="shade-label">Liturgical Red</h3>
+<div class="shade-row">
+  <div class="shade" style="background: var(--color-liturgical-red-50); color: black;">50</div>
+  <div class="shade" style="background: var(--color-liturgical-red-100); color: black;">100</div>
+  <div class="shade" style="background: var(--color-liturgical-red-200); color: black;">200</div>
+  <div class="shade" style="background: var(--color-liturgical-red-300); color: black;">300</div>
+  <div class="shade" style="background: var(--color-liturgical-red-400); color: black;">400</div>
+  <div class="shade" style="background: var(--color-liturgical-red-500); color: black;">500</div>
+  <div class="shade" style="background: var(--color-liturgical-red-600); color: white;">600</div>
+  <div class="shade" style="background: var(--color-liturgical-red-700); color: white;">700</div>
+  <div class="shade" style="background: var(--color-liturgical-red-800); color: white;">800</div>
+  <div class="shade" style="background: var(--color-liturgical-red-900); color: white;">900</div>
+  <div class="shade" style="background: var(--color-liturgical-red-950); color: white;">950</div>
+</div>
+<h3 class="shade-label">Liturgical Green</h3>
+<div class="shade-row">
+  <div class="shade" style="background: var(--color-liturgical-green-50); color: black;">50</div>
+  <div class="shade" style="background: var(--color-liturgical-green-100); color: black;">100</div>
+  <div class="shade" style="background: var(--color-liturgical-green-200); color: black;">200</div>
+  <div class="shade" style="background: var(--color-liturgical-green-300); color: black;">300</div>
+  <div class="shade" style="background: var(--color-liturgical-green-400); color: white;">400</div>
+  <div class="shade" style="background: var(--color-liturgical-green-500); color: white;">500</div>
+  <div class="shade" style="background: var(--color-liturgical-green-600); color: white;">600</div>
+  <div class="shade" style="background: var(--color-liturgical-green-700); color: white;">700</div>
+  <div class="shade" style="background: var(--color-liturgical-green-800); color: white;">800</div>
+  <div class="shade" style="background: var(--color-liturgical-green-900); color: white;">900</div>
+  <div class="shade" style="background: var(--color-liturgical-green-950); color: white;">950</div>
+</div>
+<h3 class="shade-label">Liturgical White</h3>
+<div class="shade-row">
+  <div class="shade" style="background: var(--color-liturgical-white-50); color: black;">50</div>
+  <div class="shade" style="background: var(--color-liturgical-white-100); color: black;">100</div>
+  <div class="shade" style="background: var(--color-liturgical-white-200); color: black;">200</div>
+  <div class="shade" style="background: var(--color-liturgical-white-300); color: black;">300</div>
+  <div class="shade" style="background: var(--color-liturgical-white-400); color: black;">400</div>
+  <div class="shade" style="background: var(--color-liturgical-white-500); color: black;">500</div>
+  <div class="shade" style="background: var(--color-liturgical-white-600); color: black;">600</div>
+  <div class="shade" style="background: var(--color-liturgical-white-700); color: black;">700</div>
+  <div class="shade" style="background: var(--color-liturgical-white-800); color: black;">800</div>
+  <div class="shade" style="background: var(--color-liturgical-white-900); color: white;">900</div>
+  <div class="shade" style="background: var(--color-liturgical-white-950); color: white;">950</div>
+</div>
+<h3 class="shade-label">Liturgical Gold</h3>
+<div class="shade-row">
+  <div class="shade" style="background: var(--color-liturgical-gold-50); color: black;">50</div>
+  <div class="shade" style="background: var(--color-liturgical-gold-100); color: black;">100</div>
+  <div class="shade" style="background: var(--color-liturgical-gold-200); color: black;">200</div>
+  <div class="shade" style="background: var(--color-liturgical-gold-300); color: black;">300</div>
+  <div class="shade" style="background: var(--color-liturgical-gold-400); color: white;">400</div>
+  <div class="shade" style="background: var(--color-liturgical-gold-500); color: white;">500</div>
+  <div class="shade" style="background: var(--color-liturgical-gold-600); color: white;">600</div>
+  <div class="shade" style="background: var(--color-liturgical-gold-700); color: white;">700</div>
+  <div class="shade" style="background: var(--color-liturgical-gold-800); color: white;">800</div>
+  <div class="shade" style="background: var(--color-liturgical-gold-900); color: white;">900</div>
+  <div class="shade" style="background: var(--color-liturgical-gold-950); color: white;">950</div>
+</div>
+<h3 class="shade-label">Liturgical Black</h3>
+<div class="shade-row">
+  <div class="shade" style="background: var(--color-liturgical-black-50); color: black;">50</div>
+  <div class="shade" style="background: var(--color-liturgical-black-100); color: black;">100</div>
+  <div class="shade" style="background: var(--color-liturgical-black-200); color: black;">200</div>
+  <div class="shade" style="background: var(--color-liturgical-black-300); color: black;">300</div>
+  <div class="shade" style="background: var(--color-liturgical-black-400); color: white;">400</div>
+  <div class="shade" style="background: var(--color-liturgical-black-500); color: white;">500</div>
+  <div class="shade" style="background: var(--color-liturgical-black-600); color: white;">600</div>
+  <div class="shade" style="background: var(--color-liturgical-black-700); color: white;">700</div>
+  <div class="shade" style="background: var(--color-liturgical-black-800); color: white;">800</div>
+  <div class="shade" style="background: var(--color-liturgical-black-900); color: white;">900</div>
+  <div class="shade" style="background: var(--color-liturgical-black-950); color: white;">950</div>
+</div>
+<h3 class="shade-label">Marian Blue</h3>
+<div class="shade-row">
+  <div class="shade" style="background: var(--color-marian-blue-50); color: black;">50</div>
+  <div class="shade" style="background: var(--color-marian-blue-100); color: black;">100</div>
+  <div class="shade" style="background: var(--color-marian-blue-200); color: black;">200</div>
+  <div class="shade" style="background: var(--color-marian-blue-300); color: black;">300</div>
+  <div class="shade" style="background: var(--color-marian-blue-400); color: white;">400</div>
+  <div class="shade" style="background: var(--color-marian-blue-500); color: white;">500</div>
+  <div class="shade" style="background: var(--color-marian-blue-600); color: white;">600</div>
+  <div class="shade" style="background: var(--color-marian-blue-700); color: white;">700</div>
+  <div class="shade" style="background: var(--color-marian-blue-800); color: white;">800</div>
+  <div class="shade" style="background: var(--color-marian-blue-900); color: white;">900</div>
+  <div class="shade" style="background: var(--color-marian-blue-950); color: white;">950</div>
+</div>
+<h3 class="shade-label">Immaculate Heart Blue</h3>
+<div class="shade-row">
+  <div class="shade" style="background: var(--color-immaculate-heart-blue-50); color: black;">50</div>
+  <div class="shade" style="background: var(--color-immaculate-heart-blue-100); color: black;">100</div>
+  <div class="shade" style="background: var(--color-immaculate-heart-blue-200); color: black;">200</div>
+  <div class="shade" style="background: var(--color-immaculate-heart-blue-300); color: black;">300</div>
+  <div class="shade" style="background: var(--color-immaculate-heart-blue-400); color: white;">400</div>
+  <div class="shade" style="background: var(--color-immaculate-heart-blue-500); color: white;">500</div>
+  <div class="shade" style="background: var(--color-immaculate-heart-blue-600); color: white;">600</div>
+  <div class="shade" style="background: var(--color-immaculate-heart-blue-700); color: white;">700</div>
+  <div class="shade" style="background: var(--color-immaculate-heart-blue-800); color: white;">800</div>
+  <div class="shade" style="background: var(--color-immaculate-heart-blue-900); color: white;">900</div>
+  <div class="shade" style="background: var(--color-immaculate-heart-blue-950); color: white;">950</div>
+</div>
+<h3 class="shade-label">Immaculate Heart Red</h3>
+<div class="shade-row">
+  <div class="shade" style="background: var(--color-immaculate-heart-red-50); color: black;">50</div>
+  <div class="shade" style="background: var(--color-immaculate-heart-red-100); color: black;">100</div>
+  <div class="shade" style="background: var(--color-immaculate-heart-red-200); color: black;">200</div>
+  <div class="shade" style="background: var(--color-immaculate-heart-red-300); color: black;">300</div>
+  <div class="shade" style="background: var(--color-immaculate-heart-red-400); color: white;">400</div>
+  <div class="shade" style="background: var(--color-immaculate-heart-red-500); color: white;">500</div>
+  <div class="shade" style="background: var(--color-immaculate-heart-red-600); color: white;">600</div>
+  <div class="shade" style="background: var(--color-immaculate-heart-red-700); color: white;">700</div>
+  <div class="shade" style="background: var(--color-immaculate-heart-red-800); color: white;">800</div>
+  <div class="shade" style="background: var(--color-immaculate-heart-red-900); color: white;">900</div>
+  <div class="shade" style="background: var(--color-immaculate-heart-red-950); color: white;">950</div>
+</div>
+<h3 class="shade-label">Vatican Purple</h3>
+<div class="shade-row">
+  <div class="shade" style="background: var(--color-vatican-purple-50); color: black;">50</div>
+  <div class="shade" style="background: var(--color-vatican-purple-100); color: black;">100</div>
+  <div class="shade" style="background: var(--color-vatican-purple-200); color: black;">200</div>
+  <div class="shade" style="background: var(--color-vatican-purple-300); color: black;">300</div>
+  <div class="shade" style="background: var(--color-vatican-purple-400); color: white;">400</div>
+  <div class="shade" style="background: var(--color-vatican-purple-500); color: white;">500</div>
+  <div class="shade" style="background: var(--color-vatican-purple-600); color: white;">600</div>
+  <div class="shade" style="background: var(--color-vatican-purple-700); color: white;">700</div>
+  <div class="shade" style="background: var(--color-vatican-purple-800); color: white;">800</div>
+  <div class="shade" style="background: var(--color-vatican-purple-900); color: white;">900</div>
+  <div class="shade" style="background: var(--color-vatican-purple-950); color: white;">950</div>
+</div>
+<h3 class="shade-label">Holy Spirit Flame</h3>
+<div class="shade-row">
+  <div class="shade" style="background: var(--color-holy-spirit-flame-50); color: black;">50</div>
+  <div class="shade" style="background: var(--color-holy-spirit-flame-100); color: black;">100</div>
+  <div class="shade" style="background: var(--color-holy-spirit-flame-200); color: black;">200</div>
+  <div class="shade" style="background: var(--color-holy-spirit-flame-300); color: black;">300</div>
+  <div class="shade" style="background: var(--color-holy-spirit-flame-400); color: white;">400</div>
+  <div class="shade" style="background: var(--color-holy-spirit-flame-500); color: white;">500</div>
+  <div class="shade" style="background: var(--color-holy-spirit-flame-600); color: white;">600</div>
+  <div class="shade" style="background: var(--color-holy-spirit-flame-700); color: white;">700</div>
+  <div class="shade" style="background: var(--color-holy-spirit-flame-800); color: white;">800</div>
+  <div class="shade" style="background: var(--color-holy-spirit-flame-900); color: white;">900</div>
+  <div class="shade" style="background: var(--color-holy-spirit-flame-950); color: white;">950</div>
+</div>
+<h3 class="shade-label">Eucharistic Bread</h3>
+<div class="shade-row">
+  <div class="shade" style="background: var(--color-eucharistic-bread-50); color: black;">50</div>
+  <div class="shade" style="background: var(--color-eucharistic-bread-100); color: black;">100</div>
+  <div class="shade" style="background: var(--color-eucharistic-bread-200); color: black;">200</div>
+  <div class="shade" style="background: var(--color-eucharistic-bread-300); color: black;">300</div>
+  <div class="shade" style="background: var(--color-eucharistic-bread-400); color: black;">400</div>
+  <div class="shade" style="background: var(--color-eucharistic-bread-500); color: black;">500</div>
+  <div class="shade" style="background: var(--color-eucharistic-bread-600); color: white;">600</div>
+  <div class="shade" style="background: var(--color-eucharistic-bread-700); color: white;">700</div>
+  <div class="shade" style="background: var(--color-eucharistic-bread-800); color: white;">800</div>
+  <div class="shade" style="background: var(--color-eucharistic-bread-900); color: white;">900</div>
+  <div class="shade" style="background: var(--color-eucharistic-bread-950); color: white;">950</div>
+</div>
+<h3 class="shade-label">Eucharistic Wine</h3>
+<div class="shade-row">
+  <div class="shade" style="background: var(--color-eucharistic-wine-50); color: black;">50</div>
+  <div class="shade" style="background: var(--color-eucharistic-wine-100); color: black;">100</div>
+  <div class="shade" style="background: var(--color-eucharistic-wine-200); color: black;">200</div>
+  <div class="shade" style="background: var(--color-eucharistic-wine-300); color: black;">300</div>
+  <div class="shade" style="background: var(--color-eucharistic-wine-400); color: black;">400</div>
+  <div class="shade" style="background: var(--color-eucharistic-wine-500); color: white;">500</div>
+  <div class="shade" style="background: var(--color-eucharistic-wine-600); color: white;">600</div>
+  <div class="shade" style="background: var(--color-eucharistic-wine-700); color: white;">700</div>
+  <div class="shade" style="background: var(--color-eucharistic-wine-800); color: white;">800</div>
+  <div class="shade" style="background: var(--color-eucharistic-wine-900); color: white;">900</div>
+  <div class="shade" style="background: var(--color-eucharistic-wine-950); color: white;">950</div>
+</div>
+<h3 class="shade-label">Monastery Stone</h3>
+<div class="shade-row">
+  <div class="shade" style="background: var(--color-monastery-stone-50); color: black;">50</div>
+  <div class="shade" style="background: var(--color-monastery-stone-100); color: black;">100</div>
+  <div class="shade" style="background: var(--color-monastery-stone-200); color: black;">200</div>
+  <div class="shade" style="background: var(--color-monastery-stone-300); color: black;">300</div>
+  <div class="shade" style="background: var(--color-monastery-stone-400); color: black;">400</div>
+  <div class="shade" style="background: var(--color-monastery-stone-500); color: black;">500</div>
+  <div class="shade" style="background: var(--color-monastery-stone-600); color: white;">600</div>
+  <div class="shade" style="background: var(--color-monastery-stone-700); color: white;">700</div>
+  <div class="shade" style="background: var(--color-monastery-stone-800); color: white;">800</div>
+  <div class="shade" style="background: var(--color-monastery-stone-900); color: white;">900</div>
+  <div class="shade" style="background: var(--color-monastery-stone-950); color: white;">950</div>
+</div>
+<h3 class="shade-label">Incense Smoke</h3>
+<div class="shade-row">
+  <div class="shade" style="background: var(--color-incense-smoke-50); color: black;">50</div>
+  <div class="shade" style="background: var(--color-incense-smoke-100); color: black;">100</div>
+  <div class="shade" style="background: var(--color-incense-smoke-200); color: black;">200</div>
+  <div class="shade" style="background: var(--color-incense-smoke-300); color: black;">300</div>
+  <div class="shade" style="background: var(--color-incense-smoke-400); color: black;">400</div>
+  <div class="shade" style="background: var(--color-incense-smoke-500); color: black;">500</div>
+  <div class="shade" style="background: var(--color-incense-smoke-600); color: black;">600</div>
+  <div class="shade" style="background: var(--color-incense-smoke-700); color: white;">700</div>
+  <div class="shade" style="background: var(--color-incense-smoke-800); color: white;">800</div>
+  <div class="shade" style="background: var(--color-incense-smoke-900); color: white;">900</div>
+  <div class="shade" style="background: var(--color-incense-smoke-950); color: white;">950</div>
+</div>
+
+</body>
 </html>

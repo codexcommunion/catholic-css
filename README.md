@@ -15,7 +15,7 @@ npm i catholic-css
 You can import the CSS file directly into your project. This will give you access to all the custom properties defined in the palette.
 
 ```css
-@import 'catholic-css/dist/base-palette.css';
+@import 'catholic-css/dist/catholic-palette.css';
 ```
 
 ### 2.2 Use the Custom Properties
@@ -26,8 +26,11 @@ You can use the custom properties in your HTML or CSS files. For example:
   Feast of the Immaculate Conception
 </div>
 ```
+## 3 Color Palette Preview
+![Color Swatch Preview](./preview.png)
 
-## 3 License
+
+## 4 License
 
 This project is licensed under the **CodexCommunion Digital Code License (CCCL) v1.0**.  
 See the [LICENSE](./LICENSE) file for full details.

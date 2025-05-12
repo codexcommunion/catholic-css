@@ -1,0 +1,593 @@
+:root {
+  /* === Liturgical Purple (Advent & Lent) === */
+  --color-liturgical-purple: #6A0DAD;
+  --color-liturgical-purple: oklch(42.849% 0.21652 303.17);
+
+  --color-liturgical-purple-50: #C37CF5;
+  --color-liturgical-purple-50: oklch(70.863% 0.18208 309.59);
+
+  --color-liturgical-purple-100: #BA69F4;
+  --color-liturgical-purple-100: oklch(67.083% 0.20686 308.75);
+
+  --color-liturgical-purple-200: #A843F1;
+  --color-liturgical-purple-200: oklch(60.267% 0.24766 306.79);
+
+  --color-liturgical-purple-300: #971EEE;
+  --color-liturgical-purple-300: oklch(55.15% 0.27177 303.98);
+
+  --color-liturgical-purple-400: #8110D3;
+  --color-liturgical-purple-400: oklch(49.41% 0.25185 302.74);
+
+  --color-liturgical-purple-500: #6A0DAD;
+  --color-liturgical-purple-500: oklch(42.849% 0.21652 303.17);
+
+  --color-liturgical-purple-600: #560B8C;
+  --color-liturgical-purple-600: oklch(36.979% 0.1842 303.65);
+
+  --color-liturgical-purple-700: #41086B;
+  --color-liturgical-purple-700: oklch(30.681% 0.1506 303.77);
+
+  --color-liturgical-purple-800: #2D0649;
+  --color-liturgical-purple-800: oklch(24.178% 0.11323 305.37);
+
+  --color-liturgical-purple-900: #190328;
+  --color-liturgical-purple-900: oklch(17.168% 0.07527 308.34);
+
+  --color-liturgical-purple-950: #0E0218;
+  --color-liturgical-purple-950: oklch(13.334% 0.05403 308.65);
+
+  /* === Liturgical Rose (Gaudete / Laetare Sundays) === */
+  --color-liturgical-rose: #F7C6C7;
+  --color-liturgical-rose: oklch(86.974% 0.05598 16.913);
+
+  --color-liturgical-rose-50: #FDEEEF;
+  --color-liturgical-rose-50: oklch(96.122% 0.01629 12.781);
+
+  --color-liturgical-rose-100: #FCEAEA;
+  --color-liturgical-rose-100: oklch(95.137% 0.01962 17.503);
+
+  --color-liturgical-rose-200: #FBE1E1;
+  --color-liturgical-rose-200: oklch(93.091% 0.02869 17.679);
+
+  --color-liturgical-rose-300: #FAD8D9;
+  --color-liturgical-rose-300: oklch(91.086% 0.03796 15.857);
+
+  --color-liturgical-rose-400: #F8CFD0;
+  --color-liturgical-rose-400: oklch(88.977% 0.0463 16.401);
+
+  --color-liturgical-rose-500: #F7C6C7;
+  --color-liturgical-rose-500: oklch(86.974% 0.05598 16.913);
+
+  --color-liturgical-rose-600: #F3A7A8;
+  --color-liturgical-rose-600: oklch(80.191% 0.09018 18.384);
+
+  --color-liturgical-rose-700: #EE8789;
+  --color-liturgical-rose-700: oklch(73.504% 0.12604 19.36);
+
+  --color-liturgical-rose-800: #EA686B;
+  --color-liturgical-rose-800: oklch(67.721% 0.16151 21.008);
+
+  --color-liturgical-rose-900: #E5494C;
+  --color-liturgical-rose-900: oklch(62.644% 0.19249 23.617);
+
+  --color-liturgical-rose-950: #E3393D;
+  --color-liturgical-rose-950: oklch(60.58% 0.20616 24.811);
+
+  /* === Liturgical Red (Pentecost, Martyrs, Passion) === */
+  --color-liturgical-red: #C8102E;
+  --color-liturgical-red: oklch(53.037% 0.2074 22.317);
+
+  --color-liturgical-red-50: #F799A8;
+  --color-liturgical-red-50: oklch(78.274% 0.11365 9.6819);
+
+  --color-liturgical-red-100: #F58698;
+  --color-liturgical-red-100: oklch(74.6% 0.13596 10.592);
+
+  --color-liturgical-red-200: #F26078;
+  --color-liturgical-red-200: oklch(68.145% 0.1797 13.299);
+
+  --color-liturgical-red-300: #EF3A58;
+  --color-liturgical-red-300: oklch(63.142% 0.21501 17.211);
+
+  --color-liturgical-red-400: #EC1538;
+  --color-liturgical-red-400: oklch(60.058% 0.23489 22.338);
+
+  --color-liturgical-red-500: #C8102E;
+  --color-liturgical-red-500: oklch(53.037% 0.2074 22.317);
+
+  --color-liturgical-red-600: #A20D25;
+  --color-liturgical-red-600: oklch(45.467% 0.17639 21.95);
+
+  --color-liturgical-red-700: #7C0A1D;
+  --color-liturgical-red-700: oklch(37.6% 0.14371 20.913);
+
+  --color-liturgical-red-800: #570714;
+  --color-liturgical-red-800: oklch(29.517% 0.10997 19.868);
+
+  --color-liturgical-red-900: #31040B;
+  --color-liturgical-red-900: oklch(20.606% 0.07232 16.828);
+
+  --color-liturgical-red-950: #1E0207;
+  --color-liturgical-red-950: oklch(15.647% 0.05359 11.058);
+
+  /* === Liturgical Green (Ordinary Time) === */
+  --color-liturgical-green: #007A33;
+  --color-liturgical-green: oklch(50.606% 0.14211 149.2);
+
+  --color-liturgical-green-50: #05FF6D;
+  --color-liturgical-green-50: oklch(87.274% 0.24927 148.42);
+
+  --color-liturgical-green-100: #00F466;
+  --color-liturgical-green-100: oklch(84.367% 0.24282 148.22);
+
+  --color-liturgical-green-200: #00D659;
+  --color-liturgical-green-200: oklch(76.43% 0.21958 148.29);
+
+  --color-liturgical-green-300: #00B74D;
+  --color-liturgical-green-300: oklch(68.023% 0.19374 148.63);
+
+  --color-liturgical-green-400: #009940;
+  --color-liturgical-green-400: oklch(59.614% 0.16903 148.81);
+
+  --color-liturgical-green-500: #007A33;
+  --color-liturgical-green-500: oklch(50.606% 0.14211 149.2);
+
+  --color-liturgical-green-600: #00662A;
+  --color-liturgical-green-600: oklch(44.569% 0.12461 149.37);
+
+  --color-liturgical-green-700: #005122;
+  --color-liturgical-green-700: oklch(38.024% 0.10412 150.24);
+
+  --color-liturgical-green-800: #003D19;
+  --color-liturgical-green-800: oklch(31.494% 0.08502 150.85);
+
+  --color-liturgical-green-900: #002811;
+  --color-liturgical-green-900: oklch(24.279% 0.06202 153.38);
+
+  --color-liturgical-green-950: #001E0D;
+  --color-liturgical-green-950: oklch(20.655% 0.05053 155.54);
+
+  /* === Liturgical Gold (Substitute for White on Major Feasts) === */
+  --color-liturgical-gold: #FFD700;
+  --color-liturgical-gold: oklch(88.677% 0.18219 95.33);
+
+  --color-liturgical-gold-50: #FFF4B8;
+  --color-liturgical-gold-50: oklch(96.16% 0.07728 98.925);
+
+  --color-liturgical-gold-100: #FFF1A3;
+  --color-liturgical-gold-100: oklch(95.18% 0.09856 99.269);
+
+  --color-liturgical-gold-200: #FFEA7A;
+  --color-liturgical-gold-200: oklch(93.184% 0.13446 98.898);
+
+  --color-liturgical-gold-300: #FFE452;
+  --color-liturgical-gold-300: oklch(91.585% 0.1618 98.598);
+
+  --color-liturgical-gold-400: #FFDD29;
+  --color-liturgical-gold-400: oklch(89.954% 0.1777 97.193);
+
+  --color-liturgical-gold-500: #FFD700;
+  --color-liturgical-gold-500: oklch(88.677% 0.18219 95.33);
+
+  --color-liturgical-gold-600: #CCAC00;
+  --color-liturgical-gold-600: oklch(75.038% 0.15423 95.552);
+
+  --color-liturgical-gold-700: #998100;
+  --color-liturgical-gold-700: oklch(60.744% 0.12493 95.907);
+
+  --color-liturgical-gold-800: #665600;
+  --color-liturgical-gold-800: oklch(45.543% 0.0938 96.568);
+
+  --color-liturgical-gold-900: #332B00;
+  --color-liturgical-gold-900: oklch(28.914% 0.05979 98.226);
+
+  --color-liturgical-gold-950: #1A1600;
+  --color-liturgical-gold-950: oklch(19.883% 0.04143 100.69);
+
+  /* === Liturgical White (Easter, Christmas, Marian Feasts) === */
+  --color-liturgical-white: #FFFFFF;
+  --color-liturgical-white: oklch(100% 0 none);
+
+  --color-liturgical-white-50: #FFFFFF;
+  --color-liturgical-white-50: oklch(100% 0 none);
+
+  --color-liturgical-white-100: #FFFFFF;
+  --color-liturgical-white-100: oklch(100% 0 none);
+
+  --color-liturgical-white-200: #FFFFFF;
+  --color-liturgical-white-200: oklch(100% 0 none);
+
+  --color-liturgical-white-300: #FFFFFF;
+  --color-liturgical-white-300: oklch(100% 0 none);
+
+  --color-liturgical-white-400: #FFFFFF;
+  --color-liturgical-white-400: oklch(100% 0 none);
+
+  --color-liturgical-white-500: #FFFFFF;
+  --color-liturgical-white-500: oklch(100% 0 none);
+
+  --color-liturgical-white-600: #E3E3E3;
+  --color-liturgical-white-600: oklch(91.583% 0 none);
+
+  --color-liturgical-white-700: #C7C7C7;
+  --color-liturgical-white-700: oklch(82.968% 0 none);
+
+  --color-liturgical-white-800: #ABABAB;
+  --color-liturgical-white-800: oklch(74.123% 0 none);
+
+  --color-liturgical-white-900: #8F8F8F;
+  --color-liturgical-white-900: oklch(65.004% 0 none);
+
+  --color-liturgical-white-950: #818181;
+  --color-liturgical-white-950: oklch(60.325% 0 none);
+
+  /* === Liturgical Black (All Souls, Good Friday) === */
+  --color-liturgical-black: #000000;
+  --color-liturgical-black: oklch(0% 0 none);
+
+  --color-liturgical-black-50: #737373;
+  --color-liturgical-black-50: oklch(55.553% 0 none);
+
+  --color-liturgical-black-100: #666666;
+  --color-liturgical-black-100: oklch(51.028% 0 none);
+
+  --color-liturgical-black-200: #4D4D4D;
+  --color-liturgical-black-200: oklch(42.024% 0 none);
+
+  --color-liturgical-black-300: #333333;
+  --color-liturgical-black-300: oklch(32.109% 0 none);
+
+  --color-liturgical-black-400: #1A1A1A;
+  --color-liturgical-black-400: oklch(21.779% 0 none);
+
+  --color-liturgical-black-500: #000000;
+  --color-liturgical-black-500: oklch(0% 0 none);
+
+  --color-liturgical-black-600: #000000;
+  --color-liturgical-black-600: oklch(0% 0 none);
+
+  --color-liturgical-black-700: #000000;
+  --color-liturgical-black-700: oklch(0% 0 none);
+
+  --color-liturgical-black-800: #000000;
+  --color-liturgical-black-800: oklch(0% 0 none);
+
+  --color-liturgical-black-900: #000000;
+  --color-liturgical-black-900: oklch(0% 0 none);
+
+  --color-liturgical-black-950: #000000;
+  --color-liturgical-black-950: oklch(0% 0 none);
+
+  /* === Marian Blue (Ultramarine pigment, symbolic of Mary) === */
+  --color-marian-blue: #0038A8;
+  --color-marian-blue: oklch(39.565% 0.18643 262.24);
+
+  --color-marian-blue-50: #A5C3FF;
+  --color-marian-blue-50: oklch(81.675% 0.09128 263.87);
+
+  --color-marian-blue-100: #89B1FF;
+  --color-marian-blue-100: oklch(76.255% 0.12094 263.05);
+
+  --color-marian-blue-200: #518BFF;
+  --color-marian-blue-200: oklch(65.576% 0.18291 262.5);
+
+  --color-marian-blue-300: #1966FF;
+  --color-marian-blue-300: oklch(56.618% 0.23854 262.15);
+
+  --color-marian-blue-400: #004BE0;
+  --color-marian-blue-400: oklch(48.587% 0.23387 262.5);
+
+  --color-marian-blue-500: #0038A8;
+  --color-marian-blue-500: oklch(39.565% 0.18643 262.24);
+
+  --color-marian-blue-600: #002C84;
+  --color-marian-blue-600: oklch(33.537% 0.154 261.9);
+
+  --color-marian-blue-700: #002061;
+  --color-marian-blue-700: oklch(27.346% 0.12114 261.39);
+
+  --color-marian-blue-800: #00143D;
+  --color-marian-blue-800: oklch(20.696% 0.08422 259.96);
+
+  --color-marian-blue-900: #000819;
+  --color-marian-blue-900: oklch(13.531% 0.04285 253.84);
+
+  --color-marian-blue-950: #000207;
+  --color-marian-blue-950: oklch(8.392% 0.0246 251.28);
+
+  /* === Immaculate Heart Blue (Symbolic of purity and sorrow) === */
+  --color-immaculate-heart-blue: #8AB6D6;
+  --color-immaculate-heart-blue: oklch(75.607% 0.06591 240.29);
+
+  --color-immaculate-heart-blue-50: #FFFFFF;
+  --color-immaculate-heart-blue-50: oklch(100% 0 none);
+
+  --color-immaculate-heart-blue-100: #F4F8FB;
+  --color-immaculate-heart-blue-100: oklch(97.696% 0.00586 239.82);
+
+  --color-immaculate-heart-blue-200: #D9E7F2;
+  --color-immaculate-heart-blue-200: oklch(92.074% 0.02121 241.36);
+
+  --color-immaculate-heart-blue-300: #BFD7E9;
+  --color-immaculate-heart-blue-300: oklch(86.7% 0.0359 240.33);
+
+  --color-immaculate-heart-blue-400: #A4C6DF;
+  --color-immaculate-heart-blue-400: oklch(81% 0.05086 240.13);
+
+  --color-immaculate-heart-blue-500: #8AB6D6;
+  --color-immaculate-heart-blue-500: oklch(75.607% 0.06591 240.29);
+
+  --color-immaculate-heart-blue-600: #5997C5;
+  --color-immaculate-heart-blue-600: oklch(65.33% 0.09433 242.24);
+
+  --color-immaculate-heart-blue-700: #3976A2;
+  --color-immaculate-heart-blue-700: oklch(54.497% 0.09352 242.51);
+
+  --color-immaculate-heart-blue-800: #285271;
+  --color-immaculate-heart-blue-800: oklch(42.294% 0.06995 242.81);
+
+  --color-immaculate-heart-blue-900: #172F40;
+  --color-immaculate-heart-blue-900: oklch(29.415% 0.04329 241.18);
+
+  --color-immaculate-heart-blue-950: #0E1D28;
+  --color-immaculate-heart-blue-950: oklch(22.302% 0.02985 241.64);
+
+  /* === Immaculate Heart Red (Symbolic of Mary's suffering love) === */
+  --color-immaculate-heart-red: #D72638;
+  --color-immaculate-heart-red: oklch(57.001% 0.20904 22.652);
+
+  --color-immaculate-heart-red-50: #F4C1C6;
+  --color-immaculate-heart-red-50: oklch(85.74% 0.05877 11.78);
+
+  --color-immaculate-heart-red-100: #F1AFB6;
+  --color-immaculate-heart-red-100: oklch(81.753% 0.07774 11.878);
+
+  --color-immaculate-heart-red-200: #EB8D96;
+  --color-immaculate-heart-red-200: oklch(74.419% 0.11455 14.054);
+
+  --color-immaculate-heart-red-300: #E56A76;
+  --color-immaculate-heart-red-300: oklch(67.523% 0.15302 16.109);
+
+  --color-immaculate-heart-red-400: #DF4757;
+  --color-immaculate-heart-red-400: oklch(61.651% 0.18759 18.716);
+
+  --color-immaculate-heart-red-500: #D72638;
+  --color-immaculate-heart-red-500: oklch(57.001% 0.20904 22.652);
+
+  --color-immaculate-heart-red-600: #AC1E2D;
+  --color-immaculate-heart-red-600: oklch(48.413% 0.17568 22.161);
+
+  --color-immaculate-heart-red-700: #801721;
+  --color-immaculate-heart-red-700: oklch(39.303% 0.13882 22.007);
+
+  --color-immaculate-heart-red-800: #550F16;
+  --color-immaculate-heart-red-800: oklch(29.811% 0.10082 20.814);
+
+  --color-immaculate-heart-red-900: #2A070B;
+  --color-immaculate-heart-red-900: oklch(19.562% 0.05829 17.413);
+
+  --color-immaculate-heart-red-950: #140405;
+  --color-immaculate-heart-red-950: oklch(13.909% 0.03249 16.77);
+
+/* === Vatican Purple (Roman purple used in ecclesiastical garments) === */
+--color-vatican-purple: #660066;
+--color-vatican-purple: oklch(35.805% 0.16456 328.36);
+
+--color-vatican-purple-50: #FF08FF;
+--color-vatican-purple-50: oklch(70.276% 0.32101 328.35);
+
+--color-vatican-purple-100: #F500F5;
+--color-vatican-purple-100: oklch(68.073% 0.31286 328.36);
+
+--color-vatican-purple-200: #D100D1;
+--color-vatican-purple-200: oklch(60.393% 0.27757 328.36);
+
+--color-vatican-purple-300: #AD00AD;
+--color-vatican-purple-300: oklch(52.459% 0.2411 328.36);
+
+--color-vatican-purple-400: #8A008A;
+--color-vatican-purple-400: oklch(44.446% 0.20428 328.36);
+
+--color-vatican-purple-500: #660066;
+--color-vatican-purple-500: oklch(35.805% 0.16456 328.36);
+
+--color-vatican-purple-600: #570057;
+--color-vatican-purple-600: oklch(32.051% 0.14731 328.36);
+
+--color-vatican-purple-700: #470047;
+--color-vatican-purple-700: oklch(27.921% 0.12833 328.36);
+
+--color-vatican-purple-800: #380038;
+--color-vatican-purple-800: oklch(23.906% 0.10987 328.36);
+
+--color-vatican-purple-900: #290029;
+--color-vatican-purple-900: oklch(19.713% 0.0906 328.36);
+
+--color-vatican-purple-950: #210021;
+--color-vatican-purple-950: oklch(17.385% 0.0799 328.36);
+
+/* === Holy Spirit Flame (Fire of Pentecost) === */
+--color-holy-spirit-flame: #FF4500;
+--color-holy-spirit-flame: oklch(66.02% 0.22936 35.403);
+
+--color-holy-spirit-flame-50: #FFCBB8;
+--color-holy-spirit-flame-50: oklch(88.287% 0.06485 41.019);
+
+--color-holy-spirit-flame-100: #FFBCA3;
+--color-holy-spirit-flame-100: oklch(85.074% 0.08518 41.352);
+
+--color-holy-spirit-flame-200: #FF9E7A;
+--color-holy-spirit-flame-200: oklch(79.039% 0.12633 41.027);
+
+--color-holy-spirit-flame-300: #FF8152;
+--color-holy-spirit-flame-300: oklch(73.832% 0.16564 40.543);
+
+--color-holy-spirit-flame-400: #FF6329;
+--color-holy-spirit-flame-400: oklch(69.352% 0.20179 38.834);
+
+--color-holy-spirit-flame-500: #FF4500;
+--color-holy-spirit-flame-500: oklch(66.02% 0.22936 35.403);
+
+--color-holy-spirit-flame-600: #CC3700;
+--color-holy-spirit-flame-600: oklch(55.964% 0.19257 35.805);
+
+--color-holy-spirit-flame-700: #992900;
+--color-holy-spirit-flame-700: oklch(45.44% 0.15388 36.488);
+
+--color-holy-spirit-flame-800: #661C00;
+--color-holy-spirit-flame-800: oklch(34.403% 0.11159 38.424);
+
+--color-holy-spirit-flame-900: #330E00;
+--color-holy-spirit-flame-900: oklch(22.338% 0.06561 43.467);
+
+--color-holy-spirit-flame-950: #1A0700;
+--color-holy-spirit-flame-950: oklch(15.848% 0.04085 51.816);
+
+/* === Eucharistic Bread (Wheat/Tan for the Host) === */
+--color-eucharistic-bread: #F5DEB3;
+--color-eucharistic-bread: oklch(90.883% 0.0615 83.033);
+
+--color-eucharistic-bread-50: #FAF0DC;
+--color-eucharistic-bread-50: oklch(95.768% 0.02848 84.593);
+
+--color-eucharistic-bread-100: #FAEED7;
+--color-eucharistic-bread-100: oklch(95.254% 0.03294 83.712);
+
+--color-eucharistic-bread-200: #F9EACE;
+--color-eucharistic-bread-200: oklch(94.174% 0.04025 83.131);
+
+--color-eucharistic-bread-300: #F7E6C5;
+--color-eucharistic-bread-300: oklch(93.016% 0.04709 83.937);
+
+--color-eucharistic-bread-400: #F6E2BC;
+--color-eucharistic-bread-400: oklch(91.947% 0.05432 83.441);
+
+--color-eucharistic-bread-500: #F5DEB3;
+--color-eucharistic-bread-500: oklch(90.883% 0.0615 83.033);
+
+--color-eucharistic-bread-600: #F0CC8A;
+--color-eucharistic-bread-600: oklch(86.13% 0.09301 82.069);
+
+--color-eucharistic-bread-700: #EABB62;
+--color-eucharistic-bread-700: oklch(81.65% 0.12 81.682);
+
+--color-eucharistic-bread-800: #E5A939;
+--color-eucharistic-bread-800: oklch(77.259% 0.14114 78.887);
+
+--color-eucharistic-bread-900: #D4941C;
+--color-eucharistic-bread-900: oklch(71.197% 0.14262 76.288);
+
+--color-eucharistic-bread-950: #C08619;
+--color-eucharistic-bread-950: oklch(66.179% 0.13221 76.457);
+
+/* === Eucharistic Wine (Deep red for the Precious Blood) === */
+--color-eucharistic-wine: #722F37;
+--color-eucharistic-wine: oklch(40.078% 0.0948 15.089);
+
+--color-eucharistic-wine-50: #CF8A92;
+--color-eucharistic-wine-50: oklch(70.516% 0.08494 11.862);
+
+--color-eucharistic-wine-100: #C97B85;
+--color-eucharistic-wine-100: oklch(66.852% 0.09778 11.747);
+
+--color-eucharistic-wine-200: #BD5F6A;
+--color-eucharistic-wine-200: oklch(60.024% 0.12096 14.075);
+
+--color-eucharistic-wine-300: #AC4753;
+--color-eucharistic-wine-300: oklch(53.45% 0.13256 15.54);
+
+--color-eucharistic-wine-400: #8F3B45;
+--color-eucharistic-wine-400: oklch(46.882% 0.11408 15.354);
+
+--color-eucharistic-wine-500: #722F37;
+--color-eucharistic-wine-500: oklch(40.078% 0.0948 15.089);
+
+--color-eucharistic-wine-600: #5C262D;
+--color-eucharistic-wine-600: oklch(34.758% 0.07936 14.16);
+
+--color-eucharistic-wine-700: #471D22;
+--color-eucharistic-wine-700: oklch(29.378% 0.06446 14.524);
+
+--color-eucharistic-wine-800: #311418;
+--color-eucharistic-wine-800: oklch(23.605% 0.04719 12.694);
+
+--color-eucharistic-wine-900: #1B0B0D;
+--color-eucharistic-wine-900: oklch(17.465% 0.02808 12.357);
+
+--color-eucharistic-wine-950: #100708;
+--color-eucharistic-wine-950: oklch(14.301% 0.0171 11.104);
+
+  /* === Monastery Stone (Soft, natural, contemplative neutral) === */
+  --color-monastery-stone: #D8CAB8;
+  --color-monastery-stone: oklch(84.559% 0.02907 74.262);
+
+  --color-monastery-stone-50: #FFFFFF;
+  --color-monastery-stone-50: oklch(100% 0 none);
+
+  --color-monastery-stone-100: #FCFBFA;
+  --color-monastery-stone-100: oklch(98.857% 0.0017 67.802);
+
+  --color-monastery-stone-200: #F3EFE9;
+  --color-monastery-stone-200: oklch(95.357% 0.00909 78.281);
+
+  --color-monastery-stone-300: #EAE3D9;
+  --color-monastery-stone-300: oklch(91.859% 0.01544 77.067);
+
+  --color-monastery-stone-400: #E1D6C8;
+  --color-monastery-stone-400: oklch(88.11% 0.0225 74.076);
+
+  --color-monastery-stone-500: #D8CAB8;
+  --color-monastery-stone-500: oklch(84.559% 0.02907 74.262);
+
+  --color-monastery-stone-600: #BDA587;
+  --color-monastery-stone-600: oklch(73.519% 0.05002 73.106);
+
+  --color-monastery-stone-700: #9F8058;
+  --color-monastery-stone-700: oklch(61.965% 0.06728 73.151);
+
+  --color-monastery-stone-800: #6E583C;
+  --color-monastery-stone-800: oklch(47.542% 0.05064 72.831);
+
+  --color-monastery-stone-900: #3D3121;
+  --color-monastery-stone-900: oklch(32.174% 0.03159 74.286);
+
+  --color-monastery-stone-950: #241D14;
+  --color-monastery-stone-950: oklch(23.603% 0.01961 73.614);
+
+  /* === Incense Smoke (Pale liturgical silver-gray) === */
+  --color-incense-smoke: #E5E4E2;
+  --color-incense-smoke: oklch(91.908% 0.00291 84.559);
+
+  --color-incense-smoke-50: #FBFBFA;
+  --color-incense-smoke-50: oklch(98.781% 0.00132 106.42);
+
+  --color-incense-smoke-100: #F8F8F8;
+  --color-incense-smoke-100: oklch(97.913% 0 none);
+
+  --color-incense-smoke-200: #F3F3F2;
+  --color-incense-smoke-200: oklch(96.387% 0.00133 106.42);
+
+  --color-incense-smoke-300: #EFEEED;
+  --color-incense-smoke-300: oklch(94.961% 0.00172 67.801);
+
+  --color-incense-smoke-400: #EAE9E7;
+  --color-incense-smoke-400: oklch(93.423% 0.00289 84.559);
+
+  --color-incense-smoke-500: #E5E4E2;
+  --color-incense-smoke-500: oklch(91.908% 0.00291 84.559);
+
+  --color-incense-smoke-600: #C1BEBA;
+  --color-incense-smoke-600: oklch(80.278% 0.00652 75.397);
+
+  --color-incense-smoke-700: #9D9991;
+  --color-incense-smoke-700: oklch(68.397% 0.01245 84.588);
+
+  --color-incense-smoke-800: #77736B;
+  --color-incense-smoke-800: oklch(55.664% 0.01308 84.592);
+
+  --color-incense-smoke-900: #4F4C46;
+  --color-incense-smoke-900: oklch(41.745% 0.01053 84.593);
+
+  --color-incense-smoke-950: #3A3834;
+  --color-incense-smoke-950: oklch(34.132% 0.0074 84.591);
+}
